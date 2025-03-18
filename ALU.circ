@@ -183,7 +183,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="1130,670" width="10" x="295" y="405"/>
       <circ-port height="10" pin="850,610" width="10" x="295" y="435"/>
       <circ-port height="8" pin="60,420" width="8" x="46" y="356"/>
-      <circ-port height="10" pin="990,640" width="10" x="295" y="445"/>
+      <circ-port height="10" pin="990,640" width="10" x="295" y="465"/>
       <circ-anchor facing="east" height="6" width="6" x="47" y="57"/>
     </appear>
     <wire from="(650,460)" to="(650,660)"/>
