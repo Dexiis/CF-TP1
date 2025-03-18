@@ -1,0 +1,20 @@
+Somador:
+S = A ⊕ B ⊕ CyIn
+CyOut = (A & B) + (A & CyIn) + (B & CyIn)
+
+
+Subtrator:
+S = A ⊕ B ⊕ BwIn
+BwOut = (!A & B) + (!A & BwIn) + (B & BwIn)
+
+NOR:
+R = !(A + B)
+
+NAND:
+R = !(A & B)
+
+Flags:
+Z = !R0 & !R1 & !R2
+OV = (!A2 & !B2 & R2) + (A2 & B2 & !R2)
+CyOut: (É o carry out do último bit)
+
