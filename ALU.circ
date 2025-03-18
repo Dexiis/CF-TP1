@@ -78,15 +78,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(530,250)" to="(590,250)"/>
     <wire from="(530,280)" to="(590,280)"/>
     <wire from="(530,470)" to="(590,470)"/>
-    <wire from="(230,420)" to="(280,420)"/>
+    <wire from="(230,450)" to="(280,450)"/>
     <wire from="(230,330)" to="(280,330)"/>
     <wire from="(230,120)" to="(280,120)"/>
     <wire from="(230,590)" to="(280,590)"/>
     <wire from="(230,550)" to="(280,550)"/>
     <wire from="(230,300)" to="(280,300)"/>
     <wire from="(230,360)" to="(280,360)"/>
-    <wire from="(230,450)" to="(280,450)"/>
     <wire from="(230,480)" to="(280,480)"/>
+    <wire from="(230,420)" to="(280,420)"/>
     <comp lib="0" loc="(590,280)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -182,7 +182,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="780,450" width="10" x="295" y="215"/>
       <circ-port height="10" pin="1130,670" width="10" x="295" y="405"/>
       <circ-port height="10" pin="850,610" width="10" x="295" y="435"/>
-      <circ-port height="8" pin="60,420" width="8" x="46" y="306"/>
+      <circ-port height="8" pin="60,420" width="8" x="46" y="356"/>
       <circ-port height="10" pin="990,640" width="10" x="295" y="445"/>
       <circ-anchor facing="east" height="6" width="6" x="47" y="57"/>
     </appear>
