@@ -51,9 +51,12 @@ void escreve_saidas() {
   digitalWrite(LED4, S3);
 }
 
+void ler_entradas() {
+  C = !digitalRead(PINC);
+}
+
 void setup() {
   pinMode(PINC, INPUT_PULLUP);
-  pinMode(11, INPUT);
   pinMode(LED0, OUTPUT);
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
@@ -62,12 +65,10 @@ void setup() {
 
   attachInterrupt(0, CLK, RISING);
   interrupts();
-
 }
 
 void loop() {
-
-  C = !digitalRead(PINC);
+  ler_entradas();
   funcoes_estado_seguinte();
   funcoes_saida();
   escreve_saidas();
